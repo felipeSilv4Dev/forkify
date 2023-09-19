@@ -126,5 +126,6 @@
   "bugs": {
     "url": "https://github.com/felipeSilv4Dev/forkify/issues"
   },
-  "homepage": "https://github.com/felipeSilv4Dev/forkify#readme"
+  "homepage": "https://github.com/felipeSilv4Dev/forkify#readme",
+  "main": "index.js"
 }
