@@ -2,4 +2,8 @@
 
 Recipe application with custom recipe uploads.
 
-[link app](https://forkify-felipe.netlify.app)
+search for:
+pizza
+avocado
+
+[https://forkify-felipe.app](https://forkify-felipe.netlify.app)
