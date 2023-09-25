@@ -115,7 +115,7 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "repository": {
     "type": "git",
@@ -127,5 +127,5 @@
     "url": "https://github.com/felipeSilv4Dev/forkify/issues"
   },
   "homepage": "https://github.com/felipeSilv4Dev/forkify#readme",
-  "main": "index.js"
+  "default": "index.js"
 }

@@ -3,6 +3,15 @@ import icons from 'url:../../img/icons.svg'; // Parcel 2
 export default class View {
   _data;
 
+  /**
+   * Render the received objecet to the DOM
+   * @param {Object | Object[]} data the data to be rendered (e.g. recipe)
+   * @param {boolean} [render=true] If false . create marku string instead of rendering to the DOM
+   * @returns {undefined | string} A markup string is returned if render=false
+   * @this {Object} View instance
+   * @author Felipe Silva
+   * @todo Finish implementation
+   */
   render(data, render = true) {
     if (!data || (Array.isArray(data) && data.length === 0))
       return this.renderError();

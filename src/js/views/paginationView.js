@@ -26,6 +26,13 @@ class PaginationView extends View {
 	 <span>Page ${curPage - 1}</span>
 	</button>`;
   }
+
+  // _generateMarkupButtonNow(curPage) {
+  //   return `<button data-goto="${curPage}" class="btn--inline pagination__btn--prev">
+  //  ${this._generateMarkupSvg('left')}
+  //  <span>Page ${curPage}</span>
+  // </button>`;
+  // }
   addHandlerClick(handler) {
     this._parentElement.addEventListener('click', function (e) {
       const btn = e.target.closest('.btn--inline');
